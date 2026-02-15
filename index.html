@@ -5,43 +5,277 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Línea de Tiempo - Historia del Internet</title>
 </head>
-<body bgcolor="#f0f0f0">
+<body bgcolor="#e0f2f7" style="margin: 0; padding: 0;">
     
-    <table width="100%" border="0" cellpadding="0" cellspacing="0">
-        <tr>
-            <!-- Columna izquierda - Imagen decorativa -->
-            <td width="15%" valign="top" align="center">
-                <img src="images/publicidad.png" alt="Decoración lateral izquierda" width="150">
-            </td>
+    <!-- Columna izquierda FIJA -->
+    <div style="position: fixed; left: 0; top: 0; width: 15%; height: 100%; background-color: #f5e6d3; text-align: center; overflow-y: auto;">
+        <br>
+        <img src="images/publicidad.png" alt="Publicidad" width="90%">
+    </div>
+    
+    <!-- Contenido central (con margen para no taparse con las publicidades) -->
+    <div style="margin-left: 15%; margin-right: 15%; padding: 0;">
+        
+        <!-- Logo/Header -->
+        <table width="100%" border="1" cellpadding="20" cellspacing="0" bgcolor="#ffffff">
+            <tr>
+                <td align="center">
+                    <h1> Historia del Internet - Línea de Tiempo</h1>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <!-- Menú de navegación -->
+        <table width="100%" border="1" cellpadding="10" cellspacing="0" bgcolor="#e8eaf6">
+            <tr>
+                <td align="center">
+                    <a href="index.html"><strong>Inicio</strong></a> |
+                    <a href="eventos/1969.html">1969 - ARPANET</a> |
+                    <a href="eventos/1971.html">1971 - Email</a> |
+                    <a href="eventos/1983.html">1983 - TCP/IP</a> |
+                    <a href="eventos/1984.html">1984 - DNS</a> |
+                    <a href="eventos/1989.html">1989 - WWW</a> |
+                    <a href="eventos/1991.html">1991 - Primera Web</a> |
+                    <a href="eventos/1993.html">1993 - Mosaic</a> |
+                    <a href="eventos/1995.html">1995 - Comercial</a> |
+                    <a href="eventos/2000.html">2000 - Redes Sociales</a> |
+                    <a href="eventos/2004.html">2004 - Web 2.0</a> |
+                    <a href="eventos/2010.html">2010 - Móvil</a> |
+                    <a href="eventos/2020.html">2020 - Virtual</a>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <!-- Introducción -->
+        <table width="100%" border="1" cellpadding="20" cellspacing="0" bgcolor="#ffffff">
+            <tr>
+                <td>
+                    <h2 align="center">Bienvenido a la Línea de Tiempo del Internet</h2>
+                    <p align="justify">
+                        Descubre los <strong>eventos más importantes</strong> que marcaron la historia de Internet, 
+                        desde sus inicios en 1969 hasta la actualidad. Haz clic en cualquier evento del menú 
+                        o en la lista de abajo para conocer más detalles.
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <!-- Lista de eventos principales -->
+        <!-- Comentario: Tabla principal con todos los eventos -->
+        <table width="100%" border="1" cellpadding="15" cellspacing="0" bgcolor="#ffffff">
+            <tr bgcolor="#1976d2">
+                <td colspan="2" align="center">
+                    <h2><font color="white"> Eventos Históricos del Internet</font></h2>
+                </td>
+            </tr>
             
-            <!-- Columna central - Contenido principal -->
-            <td width="70%" valign="top">
-                
-                <!-- Logo/Header -->
-                <table width="100%" border="1" cellpadding="20" cellspacing="0" align="center" bgcolor="#ffffff">
-                    <tr>
-                        <td align="center">
-                            <h1>📡 Historia del Internet - Línea de Tiempo</h1>
-                        </td>
-                    </tr>
-                </table>
+            <!-- Evento 1969 -->
+            <tr>
+                <td width="20%" align="center" bgcolor="#e3f2fd">
+                    <h3>1969</h3>
+                </td>
+                <td width="80%">
+                    <h4><a href="eventos/1969.html">ARPANET - El Nacimiento de Internet</a></h4>
+                    <p>Primera red de computadoras que dio origen a Internet. Conectó 4 universidades estadounidenses.</p>
+                </td>
+            </tr>
+            
+            <!-- Evento 1971 -->
+            <tr bgcolor="#f5f5f5">
+                <td align="center" bgcolor="#e3f2fd">
+                    <h3>1971</h3>
+                </td>
+                <td>
+                    <h4><a href="eventos/1971.html">Primer Correo Electrónico</a></h4>
+                    <p>Ray Tomlinson envía el primer email e introduce el símbolo <strong>@</strong>.</p>
+                </td>
+            </tr>
+            
+            <!-- Evento 1983 -->
+            <tr>
+                <td align="center" bgcolor="#e3f2fd">
+                    <h3>1983</h3>
+                </td>
+                <td>
+                    <h4><a href="eventos/1983.html">Protocolo TCP/IP</a></h4>
+                    <p>ARPANET adopta TCP/IP. Nacimiento oficial de Internet moderno.</p>
+                </td>
+            </tr>
+            
+            <!-- Evento 1984 -->
+            <tr bgcolor="#f5f5f5">
+                <td align="center" bgcolor="#e3f2fd">
+                    <h3>1984</h3>
+                </td>
+                <td>
+                    <h4><a href="eventos/1984.html">Sistema DNS</a></h4>
+                    <p>Creación de dominios .com, .org y .edu.</p>
+                </td>
+            </tr>
+            
+            <!-- Evento 1989 -->
+            <tr>
+                <td align="center" bgcolor="#e3f2fd">
+                    <h3>1989</h3>
+                </td>
+                <td>
+                    <h4><a href="eventos/1989.html">World Wide Web</a></h4>
+                    <p>Tim Berners-Lee propone la WWW.</p>
+                </td>
+            </tr>
+            
+            <!-- Evento 1991 -->
+            <tr bgcolor="#f5f5f5">
+                <td align="center" bgcolor="#e3f2fd">
+                    <h3>1991</h3>
+                </td>
+                <td>
+                    <h4><a href="eventos/1991.html">Primera Página Web</a></h4>
+                    <p>Se publica la primera página web en el CERN.</p>
+                </td>
+            </tr>
+            
+            <!-- Evento 1993 -->
+            <tr>
+                <td align="center" bgcolor="#e3f2fd">
+                    <h3>1993</h3>
+                </td>
+                <td>
+                    <h4><a href="eventos/1993.html">Navegador Mosaic</a></h4>
+                    <p>Primer navegador gráfico que popularizó Internet.</p>
+                </td>
+            </tr>
+            
+            <!-- Evento 1995 -->
+            <tr bgcolor="#f5f5f5">
+                <td align="center" bgcolor="#e3f2fd">
+                    <h3>1995</h3>
+                </td>
+                <td>
+                    <h4><a href="eventos/1995.html">Internet Comercial</a></h4>
+                    <p>Nacen Amazon y eBay, inicia el e-commerce.</p>
+                </td>
+            </tr>
+            
+            <!-- Evento 2000 -->
+            <tr>
+                <td align="center" bgcolor="#e3f2fd">
+                    <h3>2000</h3>
+                </td>
+                <td>
+                    <h4><a href="eventos/2000.html">Redes Sociales</a></h4>
+                    <p>Surgen plataformas sociales modernas.</p>
+                </td>
+            </tr>
+            
+            <!-- Evento 2004 -->
+            <tr bgcolor="#f5f5f5">
+                <td align="center" bgcolor="#e3f2fd">
+                    <h3>2004</h3>
+                </td>
+                <td>
+                    <h4><a href="eventos/2004.html">Web 2.0</a></h4>
+                    <p>Internet interactivo, usuarios crean contenido.</p>
+                </td>
+            </tr>
+            
+            <!-- Evento 2010 -->
+            <tr>
+                <td align="center" bgcolor="#e3f2fd">
+                    <h3>2010</h3>
+                </td>
+                <td>
+                    <h4><a href="eventos/2010.html">Internet Móvil</a></h4>
+                    <p>Los smartphones impulsan el acceso móvil.</p>
+                </td>
+            </tr>
+            
+            <!-- Evento 2020 -->
+            <tr bgcolor="#f5f5f5">
+                <td align="center" bgcolor="#e3f2fd">
+                    <h3>2020</h3>
+                </td>
+                <td>
+                    <h4><a href="eventos/2020.html">Educación Virtual</a></h4>
+                    <p>Internet esencial para trabajo remoto y educación.</p>
+                </td>
+            </tr>
+        </table>
 
-                <br>
+        <br>
 
-                <!-- Menú de navegación -->
-                 <table width="100%" border="1" cellpadding="10" cellspacing="0" align="center" bgcolor="#e0e0e0">
-                    <tr>
-                        <td align="center">
-                            <a href="index.html"><strong>Inicio</strong></a> |
-                            <a href="1969.html"> 1969 - ARPANET</a> |
-                            <a href="1971.html"> 1971 - Primer Correo Electrónico</a> |
-                            <a href="1983.html"> 1983 - Protocolo TCP/IP</a> |
-                        </td>
-                    </tr>
-                 </table>
-            </td>
-        </tr>
-    </table>    
+        <!-- Tabla resumen -->
+        <table width="100%" border="1" cellpadding="10" cellspacing="0" bgcolor="#ffffff">
+            <tr bgcolor="#424242">
+                <td colspan="3" align="center">
+                    <h3><font color="white">📊 Tabla Resumen</font></h3>
+                </td>
+            </tr>
+            <tr bgcolor="#bdbdbd">
+                <th>Año</th>
+                <th>Evento</th>
+                <th>Impacto</th>
+            </tr>
+            <tr>
+                <td align="center">1969</td>
+                <td>ARPANET</td>
+                <td>Origen de Internet</td>
+            </tr>
+            <tr bgcolor="#f5f5f5">
+                <td align="center">1971</td>
+                <td>Primer Email</td>
+                <td>Comunicación digital</td>
+            </tr>
+            <tr>
+                <td align="center">1989</td>
+                <td>WWW</td>
+                <td>Web moderna</td>
+            </tr>
+        </table>
 
+        <br>
+
+        <!-- Enlaces externos -->
+        <table width="100%" border="1" cellpadding="15" cellspacing="0" bgcolor="#fffde7">
+            <tr>
+                <td>
+                    <h3>📚 Fuentes</h3>
+                    <ul>
+                        <li><a href="https://www.internetsociety.org/es/" target="_blank">Internet Society</a></li>
+                        <li><a href="https://www.w3.org/" target="_blank">W3C</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <!-- Footer -->
+        <table width="100%" border="1" cellpadding="10" cellspacing="0" bgcolor="#263238">
+            <tr>
+                <td align="center">
+                    <font color="white">
+                        <small>&copy; 2026 - Historia del Internet</small>
+                    </font>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+    </div>
+    
+    <!-- Columna derecha FIJA -->
+    <div style="position: fixed; right: 0; top: 0; width: 15%; height: 100%; background-color: #fff3e0; text-align: center; overflow-y: auto;">
+        <br>
+        <img src="images/skincare.png" alt="Publicidad" width="90%">
+    </div>
+    
 </body>
 </html>
