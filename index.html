@@ -4,6 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Línea de Tiempo - Historia del Internet</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e0f2f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        table td, table th {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+        }
+
+        h1 {
+            color: black;
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 1px 1px 2px #FFFFFF(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #FFFFFF;
+            font-size: 1.8em;
+            margin: 10px 0;
+        }
+
+        h3 {
+            color: black;
+            font-size: 1.4em;
+            margin: 5px 0;
+        }
+
+        h4 {
+            color: black;
+            font-size: 1.2em;
+            margin: 8px 0;
+        }
+
+        p {
+            color: black;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        a:hover {
+            color: #FFFFFF;
+            text-decoration: underline;
+            transform: translateY(-2px);
+        }
+
+        a:active {
+            color: #FFFFFF;
+        }
+
+        .sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 15%;
+            height: 100%;
+            background: linear-gradient(135deg, #277DF5 0%, #277DF5 100%);
+            text-align: center;
+            overflow-y: auto;
+            box-shadow: 2px 0 5px #FFFFFF(0, 0, 0, 0.1);
+        }
+
+        .sidebar img {
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .sidebar img:hover {
+            transform: scale(1.05);
+        }
+
+        .main-content {
+            margin-left: 15%;
+            margin-right: 15%;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        table tr:first-child {
+            background: linear-gradient(135deg, #277DF5 0%, #277DF5 100%);
+            color: white;
+        }
+
+        table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        table tbody tr:hover {
+            background-color: #e3f2fd;
+            transition: background-color 0.2s ease;
+        }
+
+        @media (max-width: 1024px) {
+            .sidebar {
+                width: 20%;
+            }
+
+            .main-content {
+                margin-left: 20%;
+                margin-right: 20%;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            .main-content {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            table {
+                font-size: 0.9em;
+            }
+        }
+    </style>
 </head>
 <body bgcolor="#e0f2f7" style="margin: 0; padding: 0;">
     
@@ -214,7 +373,7 @@
         <table width="100%" border="1" cellpadding="10" cellspacing="0" bgcolor="#ffffff">
             <tr bgcolor="#424242">
                 <td colspan="3" align="center">
-                    <h3><font color="white">📊 Tabla Resumen</font></h3>
+                    <h3><font color="white"> Tabla Resumen</font></h3>
                 </td>
             </tr>
             <tr bgcolor="#bdbdbd">
@@ -245,7 +404,7 @@
         <table width="100%" border="1" cellpadding="15" cellspacing="0" bgcolor="#fffde7">
             <tr>
                 <td>
-                    <h3>📚 Fuentes</h3>
+                    <h3> Fuentes</h3>
                     <ul>
                         <li><a href="https://www.internetsociety.org/es/" target="_blank">Internet Society</a></li>
                         <li><a href="https://www.w3.org/" target="_blank">W3C</a></li>
